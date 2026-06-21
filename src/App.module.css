@@ -1,0 +1,49 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.results {
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.retakeBtn {
+  align-self: center;
+  background: var(--btn-bg);
+  color: var(--text-muted);
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: background 0.15s, color 0.15s;
+}
+
+.retakeBtn:hover {
+  background: var(--btn-hover);
+  color: var(--text);
+}
+
+@media (max-width: 560px) {
+  .cards {
+    flex-direction: column;
+  }
+}
