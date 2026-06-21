@@ -42,6 +42,17 @@
   color: var(--text);
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 16px 24px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+}
+
 @media (max-width: 560px) {
   .cards {
     flex-direction: column;
