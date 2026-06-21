@@ -15,7 +15,7 @@ export default function Header({ theme, onToggleTheme }: HeaderProps) {
         </button>
         <a
           className={styles.githubBtn}
-          href="#"
+          href="https://github.com/mitsuiJao/reverse-playback"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
